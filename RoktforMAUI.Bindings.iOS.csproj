@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+    <PackageDescription>Xamarin iOS binding for native Rokt iOS SDK</PackageDescription>
+    <Authors>Homero Lara</Authors>
+    <Company>Cinemark</Company>
+	  <RepositoryUrl>https://github.com/HomeroLara/RoktforMAUI.Bindings.iOS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>RoktforMAUI.Bindings.iOS</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageTitle>RoktforMAUI.Bindings.iOS</PackageTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="NativeLibs\RoktViewWrapper.framework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+	  <SmartLink>True</SmartLink>
+    </NativeReference>
+    <NativeReference Include="NativeLibs\Rokt_Widget.framework">
+      <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
+	  <SmartLink>True</SmartLink>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="4.5.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

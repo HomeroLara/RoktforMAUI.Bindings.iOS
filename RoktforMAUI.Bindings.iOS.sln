@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoktforMAUI.Bindings.iOS", "RoktforMAUI.Bindings.iOS.csproj", "{432A4654-DBB7-4677-AB78-74362A26201E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432A4654-DBB7-4677-AB78-74362A26201E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432A4654-DBB7-4677-AB78-74362A26201E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432A4654-DBB7-4677-AB78-74362A26201E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432A4654-DBB7-4677-AB78-74362A26201E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF736E9A-1B4C-41AD-AD42-F049981A5260}
+	EndGlobalSection
+EndGlobal
