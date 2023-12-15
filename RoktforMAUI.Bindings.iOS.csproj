@@ -12,6 +12,8 @@
     <PackageId>RoktforMAUI.Bindings.iOS</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <PackageTitle>RoktforMAUI.Bindings.iOS</PackageTitle>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT OR Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
